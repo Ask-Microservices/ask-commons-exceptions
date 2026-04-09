@@ -1,16 +1,2 @@
 [versions]
 ask-library = "1.0.0"
-reactor-kafka = "1.3.23"
-
-[libraries]
-ask-core = { group = "pe.ask.library", name = "core", version.ref = "ask-library" }
-kafka-reactor = { group = "io.projectreactor.kafka", name = "reactor-kafka", version.ref = "reactor-kafka" }
-
-spring-boot-starter = { group = "org.springframework.boot", name = "spring-boot-starter" }
-spring-kafka = { group = "org.springframework.kafka", name = "spring-kafka" }
-jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind" }
-reactor-core = { group = "io.projectreactor", name = "reactor-core" }
-lombok = { group = "org.projectlombok", name = "lombok" }
-
-spring-boot-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
-reactor-test = { group = "io.projectreactor", name = "reactor-test" }
